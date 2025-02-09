@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class longestCommonPrefix {
 
     public static String longestCommonPrefix(String[] strs) {
@@ -19,6 +21,11 @@ public class longestCommonPrefix {
     public static void main(String[] args) {
         String[] strs = { "flower", "flow", "flight" };
         System.out.println(longestCommonPrefix(strs));
+
+        int n = 19;
+        String s = Integer.toString(n);
+        String[] s1 = s.split("");
+        System.out.println(Arrays.toString(s1));
     }
 
 }
