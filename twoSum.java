@@ -13,6 +13,7 @@ public class twoSum {
                 // for (Map.Entry<Integer, Integer> entry : res.entrySet()) {
                 // System.out.println(entry.getKey() + " : " + entry.getValue());
                 // }
+                // System.out.println(res.get(diff) + " : " + i);
                 return new int[] { res.get(diff), i };
             }
             res.put(nums[i], i);
@@ -35,7 +36,7 @@ public class twoSum {
     }
 
     public static void main(String[] args) {
-        int[] nums = { 2, 7, 11, 15 };
+        int[] nums = { 2, 17, 7, 15 };
         int target = 9;
         int[] res = twoSum.twoSum(nums, target);
         System.out.println(Arrays.toString(res));
