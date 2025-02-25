@@ -22,8 +22,8 @@ public class GetMinCores {
 
         // Loop until we process all the processes
         while (i < startArr.length) {
-            // System.out.println(startArr[i]);
-            // System.out.println(endArr[j]);
+            System.out.println(startArr[i]);
+            System.out.println(endArr[j]);
             if (startArr[i] <= endArr[j]) {
 
                 // A new process is starting before the earliest one ends, we need more cores

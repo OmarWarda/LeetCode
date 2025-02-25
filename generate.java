@@ -16,6 +16,7 @@ public class generate {
                 list.add(1);
             }
         }
+        System.out.println(listOfLists);
         return 0;
     }
 

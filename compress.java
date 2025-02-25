@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class compress {
+
     public static int compress(char[] chars) {
         int index = 0;
 

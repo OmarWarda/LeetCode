@@ -10,6 +10,7 @@ public class twoSum {
         for (int i = 0; i < nums.length; i++) {
             int diff = target - nums[i];
             if (res.containsKey(diff)) {
+                // System.out.println(res.values());
                 // for (Map.Entry<Integer, Integer> entry : res.entrySet()) {
                 // System.out.println(entry.getKey() + " : " + entry.getValue());
                 // }
